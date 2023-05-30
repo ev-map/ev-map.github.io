@@ -1,0 +1,1 @@
+badges can be found at https://github.com/steverichey/google-play-badge-svg/tree/master/img

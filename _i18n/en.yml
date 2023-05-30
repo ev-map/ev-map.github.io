@@ -1,0 +1,26 @@
+page_title: EVMap – EV chargers
+app_name: EVMap
+app_description: Using EVMap, you can find electric vehicle chargers comfortably using your Android phone.
+
+feature_material_design: Material Design
+feature_material_design_desc: Intuitive and beautiful
+feature_data_sources: Community-maintained data
+feature_data_sources_desc: from GoingElectric.de and Open Charge Map
+feature_realtime: Realtime status
+feature_realtime_desc: for many chargers in Europe
+feature_price_comparison: Price comparison
+feature_price_comparison_desc: with data from Chargeprice.app (in Europe)
+feature_place_search: Place search
+feature_place_search_desc: find nearby chargers
+feature_map_data: Map data
+feature_map_data_desc: from Google Maps or OpenStreetMap (Mapbox)
+feature_filter: Advanced filtering options
+feature_filter_desc: including saved filter profiles
+feature_favorites: Favorites list
+feature_favorites_desc: also with realtime availability data
+feature_auto: Android&nbsp;Auto & Android&nbsp;Automotive&nbsp;OS
+feature_auto_desc: on supported vehicles
+feature_free: Free
+feature_free_desc: and without ads
+feature_foss: Open Source
+feature_foss_desc: contribute on <a href="https://github.com/ev-map/EVMap">GitHub</a>!

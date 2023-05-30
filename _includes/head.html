@@ -1,0 +1,20 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base target="_blank">
+
+	<title class="pageTitle">{% t page_title %}</title>
+	<meta name="description" content="{% t app_description %}">
+
+	<link rel="shortcut icon" href="{{ site.data.app_info.app_icon | relative_url }}">
+
+	<!-- Smart App Banner -->
+	{% if site.data.app_info.enable_smart_app_banner %}
+		<meta name="apple-itunes-app" content="app-id={{ site.data.app_info.ios_app_id }}">
+	{% endif %}
+
+	<link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/materialdesignicons/css/materialdesignicons.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
+</head>

@@ -1,0 +1,32 @@
+<div class="features">
+
+    {% for feature in site.data.features %}
+
+    {% if feature.title %}
+    <div class="feature">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                {% if feature.fontawesome_icon_name %}
+                <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+                {% elsif feature.mdi_icon_name %}
+                <i class="iconTop mdi mdi-26px mdi-{{ feature.mdi_icon_name }} fa-stack-1x"></i>
+                {% elsif feature.custom_icon_name %}
+                <img class="iconTop fa-stack-1x" src="{{ '/assets/' | append: feature.custom_icon_name | relative_url }}" />
+                {% endif %}
+            </span>
+        </div>
+        <div class="featureText">
+            <h3>
+                {% t feature.title %}
+            </h3>
+            <p>
+                {% t feature.description %}
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>

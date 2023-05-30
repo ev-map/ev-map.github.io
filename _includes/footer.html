@@ -1,0 +1,70 @@
+<footer>
+	{% if site.data.app_info.your_name %}
+	<p class="footerText">Made with ♥ by {% if site.data.app_info.your_link %}<a href="{{ site.data.app_info.your_link }}">{% endif %}{{ site.data.app_info.your_name }}{% if site.data.app_info.your_link %}</a>{% endif %}{% if site.data.app_info.your_city %} in {{ site.data.app_info.your_city }}{% endif %}</p>
+	{% endif %}
+	<div class="footerIcons">
+
+		{% if site.data.app_info.facebook_username %}
+			<a href="https://facebook.com/{{ site.data.app_info.facebook_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.data.app_info.twitter_username %}
+			<a href="https://twitter.com/{{ site.data.app_info.twitter_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-twitter fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.data.app_info.instagram_username %}
+			<a href="https://instagram.com/{{ site.data.app_info.instagram_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.data.app_info.mastodon_link %}
+			<a rel="me" href="{{ site.data.app_info.mastodon_link }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-mastodon fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.data.app_info.github_username %}
+			<a href="https://github.com/{{ site.data.app_info.github_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-github fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+		{% if site.data.app_info.email_address %}
+			<a href="mailto:{{ site.data.app_info.email_address }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fas fa-envelope fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
+	</div>
+	<div class="footerLinks">
+		{% for page in site.pages %}
+			<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+		{% endfor %}
+		{% if site.data.app_info.presskit_download_link %}
+			<a href="{{ site.data.app_info.presskit_download_link }}">Press Kit</a>
+		{% endif %}
+	</div>
+</footer>

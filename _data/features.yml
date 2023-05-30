@@ -1,0 +1,48 @@
+# Feature List
+- title                                 : feature_material_design
+  description                           : feature_material_design_desc
+  mdi_icon_name                         : material-design
+
+#- title                                 : feature_material_design
+#  description                           : feature_material_design_desc
+#  fontawesome_icon_name                 : magic
+
+- title                                 : feature_data_sources
+  description                           : feature_data_sources_desc
+  mdi_icon_name                         : crowd
+
+- title                                 : feature_realtime
+  description                           : feature_realtime_desc
+  mdi_icon_name                         : poll
+
+- title                                 : feature_price_comparison
+  description                           : feature_price_comparison_desc
+  mdi_icon_name                         : cash
+
+- title                                 : feature_map_data
+  description                           : feature_map_data_desc
+  mdi_icon_name                         : map
+
+- title                                 : feature_place_search
+  description                           : feature_place_search_desc
+  mdi_icon_name                         : map-marker
+
+- title                                 : feature_filter
+  description                           : feature_filter_desc
+  mdi_icon_name                         : filter-variant
+
+- title                                 : feature_favorites
+  description                           : feature_favorites_desc
+  mdi_icon_name                         : heart-multiple
+
+- title                                 : feature_auto
+  description                           : feature_auto_desc
+  custom_icon_name                      : ic_android_auto.svg
+
+- title                                 : feature_free
+  description                           : feature_free_desc
+  mdi_icon_name                         : advertisements-off
+
+- title                                 : feature_foss
+  description                           : feature_foss_desc
+  mdi_icon_name                         : source-branch
