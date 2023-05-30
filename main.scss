@@ -4,7 +4,7 @@
 
 $body-color: {{ site.data.theme_settings.body_background_color }};
 
-$header-image: "{{ site.data.theme_settings.cover_image }}";
+$header-image-position: {{ site.data.theme_settings.cover_image_position }};
 $device-color: "assets/{{ site.data.theme_settings.device_color }}.png";
 
 $accent-color: {{ site.data.theme_settings.link_color }};
