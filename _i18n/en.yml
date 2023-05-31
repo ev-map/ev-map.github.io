@@ -24,3 +24,94 @@ feature_free: Free
 feature_free_desc: and without ads
 feature_foss: Open Source
 feature_foss_desc: contribute on <a href="https://github.com/ev-map/EVMap">GitHub</a>!
+
+contents: Contents
+faq_general: General
+faq_colors: What do the different colors of the charging station icons on the map mean?
+faq_colors_desc: "The meanings are listed below:"
+faq_colors_table_header_icon: Icon
+faq_colors_table_header_charging_power: Charging power
+faq_colors_table_at_least: at least
+faq_double_bolt: What does it mean if a charging station has an icon with two lightning bolts?
+faq_double_bolt_desc: If the icon contains two lightning bolts, the charging site has more than one connector. If a filter for specific connectors or a certain charging power is selected, the icon only applies to the selected types of connectors.
+faq_connector_colors: What do the different colors of the connectors mean?
+faq_connector_colors_desc: "In the detail view of a charging station, the connectors are shown with real-time availability data shown with different colors, as listed below:"
+faq_connector_colors_green: Green
+faq_connector_colors_green_desc: At least one connector of this type is available
+faq_connector_colors_red: Red
+faq_connector_colors_red_desc: All connectors of this type are out of order
+faq_connector_colors_teal: Teal
+faq_connector_colors_teal_desc: All connectors of this type are in use or out of order
+faq_connector_colors_grey: Grey
+faq_connector_colors_grey_desc: No real-time data available
+faq_verified: What does the green checkmark next to a charging station's name mean?
+faq_verified_desc: This charger has been verified by a member of the community (either at
+  [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) or
+  [OpenChargeMap.org](https://openchargemap.org/), depending on the selected data source), which means that at least one
+  successful charging session has been reported and there is no current fault report. Of course this does not
+  necessarily mean that the charger is still accessible and in working order. If a charger is not working, please report
+  it at [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) or
+  [OpenChargeMap.org](https://openchargemap.org/).
+faq_fdroid: What is F-Droid and why are there differences between the versions of the app available on F-Droid and the Google Play Store?
+faq_fdroid_desc_1: "[F-Droid](https://f-droid.org/) is an alternative Android app store that focuses on free and open source (FOSS) apps. As per F-Droid's policies, apps available through its store must not contain proprietary dependencies, such as certain Google services. Thus, the version of EVMap available on F-Droid contains some changes to remove such dependencies. The details can be found in the list below."
+faq_fdroid_desc_2: Due to the downsides mentioned below, it is **recommended** for most users **to install the app from Google Play** to have access to all features. The F-Droid release is mainly intended to provide an alternative means of installation for devices that cannot access Google services or users who would like to avoid them.
+faq_fdroid_changes: "Changes in the F-Droid version of EVMap:"
+faq_fdroid_changes_1: Map data and place search are solely provided by **Mapbox (OpenStreetMap)**, while the Google Play version offers a choice between Google Maps and Mapbox.
+faq_fdroid_changes_2: There is **no support for Android Auto and Android Automotive OS**, which are both proprietary Google products.
+faq_fdroid_changes_3: Donations are accepted through a **PayPal** link instead of the Google Play in-app purchases mechanism.
+faq_fdroid_changes_4: The F-Droid version of the app should also work on Android devices that lack the preinstalled Google Play Services.
+faq_fdroid_changes_5: Due to F-Droid's policies, we have less control over the release of new updates. Updates will typically appear on F-Droid a few days later than on Google Play.
+faq_fdroid_changes_desc: The Mapbox library used for displaying OpenStreetMap maps usually also contains certain proprietary components used for optional telemetry services. These have been removed in both the Google Play and the F-Droid versions of EVMap, to enhance the users' privacy while using Mapbox maps.
+
+faq_chargeprice: Price comparison feature
+faq_chargeprice_source: Where does the pricing data come from?
+faq_chargeprice_source_desc_1: The pricing information is available in EVMap thanks to the service from our friends at [Chargeprice.app](https://chargeprice.app).
+  The data shown within EVMap are identical to those on the Chargeprice website, the developer of EVMap has no direct influence
+  on this data and assume no liability for their correctness.
+faq_chargeprice_source_desc_2: The calculated total charging cost is an estimate based on the selected vehicle model and the desired state of
+  charge, so it should only be considered as an approximate value. The exact cost depends on many factors
+  (e.g. reduced charging power with a cold battery, additional consumption through charging loss or heating/cooling
+  during charging, etc.), which Chargeprice cannot foresee.
+faq_chargeprice_report: How can I report incorrect data?
+faq_chargeprice_report_desc: If you find an incorrect price, a missing provider, or have questions about the pricing data, you can contact the
+  Chargeprice team directly on their [website](https://chargeprice.app).
+faq_chargeprice_order: How are the charging plans sorted?
+faq_chargeprice_order_desc: The plans you have selected as "my charging plans" in EVMap's settings will be shown at the beginning of the list
+  and with a gray background. All other plans are sorted by the estimated total charging cost in ascending order.
+faq_chargeprice_partners: Why are some charging plans highlighted with a different background color and include a provider logo or a coupon code?
+faq_chargeprice_partners_desc_1: Certain providers have partnered with Chargeprice to promote their services. If you tap on a plan from such a
+  provider to check out further information on the provider's website, Chargeprice receives a small payment.
+  If you do this through the EVMap app, these payments will be deducted from the fees that the developer of EVMap needs
+  to pay for using the Chargeprice data. So, checking out the services of Chargeprice's partners benefits both
+  Chargeprice and EVMap.
+faq_chargeprice_partners_desc_2: Nevertheless, Chargeprice is committed to maximum transparency — all plans will still be sorted by price, independent
+  of whether the provider is a partner or not.
+faq_chargeprice_ac_power: Why is the estimated charging power at AC chargers lower than what my car supports?
+faq_chargeprice_ac_power_desc: Some European countries with three-phase electricity grids have restrictions on so-called unbalanced loads, i.e. appliances pulling
+  a lot of power from a single phase. If your car's onboard charger does not support two- or three-phase charging, this limitation may apply
+  to your car as well at AC stations. For example, in Germany the limit for unbalanced loads is 20&nbsp;A, which corresponds to about 4.5&nbsp;kW.
+  However, not all public charging stations actually enforce this limit. To calculate prices based on the maximum power your car
+  supports, use "Enable unbalanced load" in the app's settings.
+
+faq_permissions: Which permissions does EVMap need and why?
+faq_permissions_desc: "The following permissions are needed by EVMap:"
+faq_permissions_internet: Internet access
+faq_permissions_internet_desc: Needed to load information about charging stations from the internet.
+faq_permissions_location: Location access while running in the foreground
+faq_permissions_location_desc_1: Needed to show your current location on the map and load charging stations nearby.
+  This permission is **optional**, since Android 6.0 you can decide if EVMap can access your
+  exact (GPS) or approximate (WiFi/mobile network) location or none at all.
+faq_permissions_location_desc_2: The Android Auto and Android Automotive OS apps are not usable without the location permission, because
+  it always shows nearby charging stations.
+faq_permissions_location_desc_3: The app only accesses your location when running in the foreground - starting with Android 10 this is also
+  enforced by the system (a separate permission would be needed for background access)
+faq_permissions_network_connections: View network and WiFi connections
+faq_permissions_network_connections_desc: Used e.g. by the Google Maps and Google Places libraries to check if there is an internet connection
+  and to adapt their data usage to the type of connection (mobile data or WiFi).
+faq_permissions_android_auto: Special permissions for Android Auto and Android Automotive OS (only Google Play version)
+faq_permissions_android_auto_desc: "The Android Auto and Android Automotive OS apps need the following additional permissions:"
+faq_permissions_android_auto_1: Access vehicle data (e.g. vehicle GPS)
+faq_permissions_android_auto_2: Run foreground service (to use the smartphone's GPS in case the vehicle does not provide this data)
+faq_permissions_android_auto_3: Android Car App Library Map Templates (to display the user interface using the templates provided by Android Auto)
+faq_permissions_play_billing: Google Play Billing service (only Google Play version)
+faq_permissions_play_billing_desc: To support in-app purchases for donations via Google Play

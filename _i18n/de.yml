@@ -24,3 +24,107 @@ feature_free: Kostenlos
 feature_free_desc: und ohne Werbung
 feature_foss: Open Source
 feature_foss_desc: Beitragen auf <a href="https://github.com/ev-map/EVMap">GitHub</a>!
+
+contents: Inhalt
+faq_general: Allgemein
+faq_colors: Was bedeuten die verschiedenen Farben der Ladestationen auf der Karte?
+faq_colors_desc: "Die Bedeutungen sind unten aufgelistet:"
+faq_colors_table_header_icon: Icon
+faq_colors_table_header_charging_power: Leistung der Ladestation
+faq_colors_table_at_least: ab
+faq_double_bolt: Was bedeuten Ladestationen auf der Karte mit zwei Blitzen?
+faq_double_bolt_desc: Wenn das Icon der Ladestation zwei Blitze hat, ist mehr als ein Anschluss an der Ladestation vorhanden. Wenn ein Filter nach bestimmten Anschlüssen oder Ladeleistungen eingstellt ist, bezieht sich das Icon auf Anschlüsse des ausgewählten Typs und Leistung.
+faq_connector_colors: Was bedeuten die verschiedenen Farben der Anschlüsse?
+faq_connector_colors_desc: "In der Detailansicht einer Ladestation werden die Anschlüsse mit Echtzeitdaten zur Verfügbarkeit angezeigt. Die Bedeutungen sind unten aufgelistet:"
+faq_connector_colors_green: Grün
+faq_connector_colors_green_desc: Mindestens ein Anschluss dieses Typs verfügbar
+faq_connector_colors_red: Rot
+faq_connector_colors_red_desc: Alle Anschlüsse dieses Typs defekt
+faq_connector_colors_teal: Türkis
+faq_connector_colors_teal_desc: Alle Anschlüsse dieses Typs besetzt oder defekt
+faq_connector_colors_grey: Grau
+faq_connector_colors_grey_desc: Keine Live-Daten verfügbar
+faq_verified: Was bedeutet der grüne Haken neben dem Namen einer Ladestation?
+faq_verified_desc: Die Ladestation wurde von einem Mitglied der Community verifiziert (je nach ausgewählter Datenquelle
+  bei [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) oder
+  [OpenChargeMap.org](https://openchargemap.org/)), d.h. es ist mindestens ein erfolgreicher Eintrag im Ladelog zu
+  finden und keine aktuelle Störung gemeldet. Das bedeutet aber natürlich nicht zwangsläufig, dass die Ladestation auch
+  aktuell noch funktionsfähig und zugänglich ist. Wenn eine Ladestation nicht funktioniert, trage bitte bei
+  [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) bzw.
+  [OpenChargeMap.org](https://openchargemap.org/) eine Störungsmeldung ein.
+faq_fdroid: Was ist F-Droid und warum unterscheiden sich die Versionen von EVMap bei F-Droid und dem Google Play Store?
+faq_fdroid_desc_1: "[F-Droid](https://f-droid.org/) ist ein alternativer App Store für Android, der sich auf *Free and Open Source
+  Software* (FOSS) spezialisiert hat. Nach den Regeln von F-Droid dürfen die dort erhältlichen Apps keine proprietären
+  Abhängigkeiten enthalten, dadurch ist z.B. die Nutzung der meisten Google-Dienste nicht möglich. Die auf F-Droid
+  verfügbare Version von EVMap enthält daher einige Änderungen, um solche Abhängigkeiten zu entfernen. Die Details dazu
+  sind in der Liste unten zu finden."
+faq_fdroid_desc_2: Wegen der unten genannten Nachteile ist es für die meisten Nutzer **empfehlenswert, die App von Google Play zu
+  installieren**, um Zugang zu allen Funktionen zu haben. Die Version bei F-Droid ist hauptsächlich als alternative
+  Installationsmethode für Geräte gedacht, die keinen Zugriff auf Google-Dienste haben, oder Nutzer, die diese vermeiden
+  wollen.
+faq_fdroid_changes: "Änderungen in der F-Droid-Version von EVMap:"
+faq_fdroid_changes_1: Kartendaten und Ortssuche sind nur von **Mapbox (OpenStreetMap)** verfügbar (die Google Play-Version bietet eine
+  Auswahlmöglichkeit zwischen Google Maps und Mapbox).
+faq_fdroid_changes_2: Es gibt **keine Unterstützung für Android Auto und Android Automotive OS**, beides sind proprietäre Produkte von
+  Google.
+faq_fdroid_changes_3: Spenden werden über einen **PayPal**-Link akzeptiert statt über den In-App-Kauf-Mechanismus von Google Play.
+faq_fdroid_changes_4: Die F-Droid-Version der App sollte dadurch auch auf Geräten ohne die üblicherweise vorinstallierten Google
+  Play-Dienste funktionieren.
+faq_fdroid_changes_5: Durch die Bedingungen von F-Droid haben wir weniger Kontrolle über die Veröffentlichung von Updates. Neue Versionen
+  erscheinen typischerweise auf F-Droid ein paar Tage später als bei Google Play.
+faq_fdroid_changes_desc: Die Mapbox-Bibliothek, die zur Darstellung von OpenStreetMap-Karten verwendet wird, enthält normalerweise auch einige
+  proprietäre Komponenten, die für optionale Telemetrie verwendet wird. Diese Komponenten wurden in beiden Versionen von
+  EVMap entfernt, um den Datenschutz bei der Nutzung der Mapbox-Karten zu verbessern.
+
+faq_chargeprice: Preisvergleichsfunktion
+faq_chargeprice_source: Woher stammen die Preise?
+faq_chargeprice_source_desc_1: Die Preisdaten werden EVMap dankenswerterweise von unseren Freunden von 
+  [Chargeprice.app](https://chargeprice.app) zur Verfügung gestellt.
+faq_chargeprice_source_desc_2: Die in EVMap angezeigten Daten entsprechen denen auf der Website von Chargeprice, der Entwickler von EVMap hat keinen
+  direkten Einfluss auf diese Daten und übernehmen auch keine Haftung oder Garantie für die Korrektheit.
+  Die Berechnung der Gesamtladekosten ist eine Schätzung auf Basis des ausgewählten Fahrzeugmodells und des
+  eingestellten Ladezustandes, ist also als Richtwert zu verstehen. Die genauen Kosten hängen von vielen Faktoren ab
+  (z.B. reduzierte Ladeleistung bei kalter Batterie, zusätzlicher Energieverbrauch durch Ladeverluste oder
+  Heizung/Kühlung während des Ladens, etc.), die Chargeprice nicht vorhersehen kann.
+faq_chargeprice_report: Wie kann ich falsche Daten melden?
+faq_chargeprice_report_desc: Wenn du einen falschen Preis findest, ein Tarif fehlt, oder du Fragen zu den Daten hast, kannst du auf der [Website von Chargeprice](https://chargeprice.app) das Team kontaktieren..
+faq_chargeprice_order: Wie sind die Tarife sortiert?
+faq_chargeprice_order_desc: Tarife, die du in den Einstellungen von EVMap als "meine Tarife" ausgewählt hast, werden an den Anfang der Liste
+  gestellt und durch eine graue Hinterlegung markiert.
+  Alle weiteren Tarife werden nach den voraussichtlichen Gesamtladekosten aufsteigend sortiert.
+faq_chargeprice_partners: Warum sind manche Tarife in der Liste farblich hervorgehoben und beinhalten ein Anbieterlogo oder einen Gutscheincode?
+faq_chargeprice_partners_desc_1: Mit einigen Anbietern hat Chargeprice.app einen Kooperationsvertrag abgeschlossen. Wenn du auf einen Tarif eines dieser Anbieter tippst,
+  um dich auf der Website des Anbieters zu informieren, erhält Chargeprice dafür eine kleine Vergütung.
+  Wenn der Aufruf aus EVMap heraus erfolgt, werden diese Einnahmen auf die Gebühren, die der Entwickler von EVMap
+  für die Nutzung der Chargeprice-Daten zahlt, angerechnet. Wenn du dir die Tarife dieser Anbieter anschaust, kommt
+  das also sowohl Chargeprice als auch EVMap zugute. Daher übernimmt EVMap die farbliche Hervorhebung dieser Anbieter.
+faq_chargeprice_partners_desc_2: Trotzdem verschreibt sich Chargeprice aber weiterhin der Transparenz — die Tarife bleiben weiter nach Preis sortiert,
+  unabhängig von der Kooperation mit einzelnen Anbietern.
+faq_chargeprice_ac_power: Warum ist die geschätzte Ladeleistung an AC-Ladestationen geringer als die, die mein Auto unterstützt?
+faq_chargeprice_ac_power_desc: Einige europäische Länder mit dreiphasigen Stromnetzen haben Grenzwerte zu sogenannten Schieflasten, also Verbrauchern, die hohe
+  Leistungen aus nur einer Phase ziehen. Wenn das Bordladegerät deines Autos kein zwei- oder dreiphasiges Laden unterstützt, kann diese
+  Begrenzung auch für das Laden deines Autos an AC-Ladestationen zutreffen. In Deutschland liegt der Grenzwert für Schieflasten bei 20&nbsp;A, was etwa 4,5&nbsp;kW entspricht.
+  Allerdings wird dieser Grenzwert nicht von allen öffentlichen Ladestationen tatsächlich erzwungen. Um die Preise basierend auf der maximalen Ladeleistung deines Autos zu berechnen, kannst du die Einstellung "Schieflast erlauben" in den Einstellungen der App aktivieren.
+
+faq_permissions: Welche Berechtigungen benötigt EVMap, und wofür?
+faq_permissions_desc: "Folgende Berechtigungen benötigt EVMap:"
+faq_permissions_internet: Internetzugriff
+faq_permissions_internet_desc: Wird benötigt um die Informationen zu Ladestationen aus dem Internet zu laden.
+faq_permissions_location: Standortzugriff bei Ausführung im Vordergrund
+faq_permissions_location_desc_1: Wird benötigt um deinen Standort auf der Karte anzuzeigen und Ladestationen in der Nähe zu suchen.
+  Diese Berechtigung ist **optional**, ab Android 6.0 kannst du einstellen, ob
+  EVMap den genauen (GPS), ungefähren (WLAN/Mobilfunknetz), oder gar keinen Standort erhält.
+faq_permissions_location_desc_2: Die App für Android Auto bzw. Android Automotive OS ist ohne Standortberechtigung nicht nutzbar, da
+  sie immer Ladestationen in der Nähe anzeigt.
+faq_permissions_location_desc_3: Die App greift nur auf den Standort zu, wenn sie im Vordergrund läuft - ab Android 10 wird dies auch
+  durch das System erzwungen (für Standortzugriff im Hintergrund würde man noch eine weitere Berechtigung benötigen)
+faq_permissions_network_connections: Netzwerk- und WLAN-Verbindungen abrufen
+faq_permissions_network_connections_desc: Wird z.B. von den Google Maps- und Google Places-Bibliotheken benötigt, um zu prüfen ob eine Internetverbindung
+  besteht und den Datenverbrauch der Art der Verbindung (Mobilfunk oder WLAN) anzupassen.
+faq_permissions_android_auto: Spezielle Berechtigungen für Android Auto und Android Automotive OS (nur Google Play-Version)
+faq_permissions_android_auto_desc: "Die Apps für Android Auto und Android Automotive OS benötigen folgende zusätzliche Berechtigungen:"
+faq_permissions_android_auto_1: Fahrzeuginformationen abrufen (z.B. GPS des Fahrzeugs)
+faq_permissions_android_auto_2: Vordergrunddienst ausführen (um alternativ das GPS des Handys nutzen zu können, falls das Fahrzeug keine Daten bereitstellt)
+faq_permissions_android_auto_3: Android Car App Library Map Templates (zur Darstellung der Bedienoberfläche mithilfe der von Android Auto bereitgestellten Vorlagen)
+faq_permissions_play_billing: Google Play-Rechnungsdienst (nur Google Play-Version)
+faq_permissions_play_billing_desc: Zur Abwicklung von In-App-Käufen für Spenden über Google Play
