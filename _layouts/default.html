@@ -46,7 +46,10 @@
                         </div>
                         <div class="downloadButtonsContainer">
                             {% if site.data.app_info.playstore_link %}
-                                <a class="playStoreLink" href="{{site.data.app_info.playstore_link}}"><img class="playStore" src="assets/playstore_badge/{{ site.lang }}_get.svg"></a>
+                                <a class="playStoreLink" href="{{site.data.app_info.playstore_link}}"><img class="playStore" src="assets/badges/playstore/{{ site.lang }}_get.svg"></a>
+                            {% endif %}
+                            {% if site.data.app_info.fdroid_link %}
+                                <a class="fdroidLink" href="{{site.data.app_info.fdroid_link}}"><img class="fdroid" src="assets/badges/fdroid/get-it-on-{{ site.lang }}.svg"></a>
                             {% endif %}
                             {% if site.data.app_info.appstore_link %}
                                 <a class="appStoreLink" href="{{site.data.app_info.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
