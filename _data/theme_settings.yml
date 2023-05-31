@@ -8,7 +8,7 @@ cover_image_position                      : center
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+phone_frame                               : nexus-5x
 
 body_background_color                     : "#ffffff"
 

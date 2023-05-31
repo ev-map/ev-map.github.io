@@ -5,7 +5,12 @@
 $body-color: {{ site.data.theme_settings.body_background_color }};
 
 $header-image-position: {{ site.data.theme_settings.cover_image_position }};
-$device-color: "assets/{{ site.data.theme_settings.device_color }}.png";
+$device-type: "assets/phone-frames/{{ site.data.theme_settings.phone_frame }}.png";
+$device-offset-x: {% if site.data.theme_settings.phone_frame contains "iphone" %}6.5%{% elsif site.data.theme_settings.phone_frame contains "nexus-5x" %}4.591%{% else %}0{% endif %};
+$device-offset-y: {% if site.data.theme_settings.phone_frame contains "iphone" %}5.75%{% elsif site.data.theme_settings.phone_frame contains "nexus-5x" %}19.449%{% else %}0{% endif %};
+$device-width: {% if site.data.theme_settings.phone_frame contains "iphone" %}87.25%{% elsif site.data.theme_settings.phone_frame contains "nexus-5x" %}90.150%{% else %}0{% endif %};
+$device-height: {% if site.data.theme_settings.phone_frame contains "iphone" %}93.44%{% elsif site.data.theme_settings.phone_frame contains "nexus-5x" %}79.660%{% else %}0{% endif %};
+$device-mask: {% if site.data.theme_settings.phone_frame contains "iphone" %}url(#screenMask-iPhone){% else %}none{% endif %};
 
 $accent-color: {{ site.data.theme_settings.link_color }};
 
