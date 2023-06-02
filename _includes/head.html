@@ -18,4 +18,18 @@
 	<link rel="stylesheet" href="{{ '/assets/materialdesignicons/css/materialdesignicons.min.css' | relative_url }}">
 	<link rel="stylesheet" href="{{ '/assets/roboto/css/roboto.css' | relative_url }}">
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
+
+	{% if page.layout == 'default' %}
+		<script type="text/javascript">
+			// redirect based on browser language
+			if (window.location.search.indexOf('redirect=no') === -1) {
+				var lang = navigator.language || navigator.userLanguage;
+				if (lang.indexOf('de') === 0 && '{{ site.lang }}' !== 'de') {
+					window.location = '/de/';
+				} else if (lang.indexOf('en') === 0 && '{{ site.lang }}' !== 'en') {
+					window.location = '/';
+				}
+			}
+		</script>
+	{% endif %}
 </head>
