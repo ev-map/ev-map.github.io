@@ -1,10 +1,10 @@
 ---
 layout: page
-title: FAQ
+title: faq
 include_in_header: true
 ---
 
-# FAQ
+# {% t faq %}
 {:.no_toc}
 
 ### {% t contents %}
