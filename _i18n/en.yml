@@ -140,3 +140,8 @@ privacy_availability_predictions_desc_1: When selecting a charger in the app, ut
 privacy_availability_predictions_desc_2: fronyx's privacy policy can be accessed [here](https://fronyx.io/privacy-policy/).
 privacy_price_comparison: Price comparison
 privacy_price_comparison_desc: The price comparison service in the app is powered by [Chargeprice.app](https://www.chargeprice.app/). When using the price comparison service (only available in certain regions), your IP address and browser identifier as well as the selected price comparison settings, including vehicle model, state of charge and additional filter settings, are transmitted to Chargeprice.app. When selecting a price listed in the app to proceed to the provider's website, this is done through an affiliate link from Chargeprice.app, which means that this action is also transmitted to Chargeprice for statistical purposes. Chargeprice.app is a service by Chargeprice SAS, and their privacy policy can be found [here](https://www.chargeprice.net/privacy-policy/). Chargeprice and EVMap assume no liability for the correctness of the displayed prices, they are only approximate values.
+
+imprint: Imprint
+imprint_tmg: ""
+imprint_contact: Contact
+imprint_tax_id: VAT identification number
