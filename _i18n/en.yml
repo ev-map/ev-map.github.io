@@ -94,7 +94,7 @@ faq_chargeprice_ac_power_desc: Some European countries with three-phase electric
   However, not all public charging stations actually enforce this limit. To calculate prices based on the maximum power your car
   supports, use "Enable unbalanced load" in the app's settings.
 
-faq_permissions: Which permissions does EVMap need and why?
+faq_permissions: Permissions
 faq_permissions_desc: "The following permissions are needed by EVMap:"
 faq_permissions_internet: Internet access
 faq_permissions_internet_desc: Needed to load information about charging stations from the internet.
