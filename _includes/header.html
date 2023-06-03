@@ -9,7 +9,7 @@
 				</defs>
 			</svg>
 			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="headerIcon" src="{{ site.data.app_info.app_icon | relative_url }}"></a>
+				<a href="../"><img class="headerIcon" src="{{ site.data.app_info.app_icon | relative_url }}"></a>
 			{% else %}
 				<img class="headerIcon" src="{{ site.data.app_info.app_icon | relative_url }}">
 			{% endif %}
@@ -21,7 +21,7 @@
 		<ul>
 			{% for page in site.pages %}
 				{% if page.include_in_header == true %}
-				<li><a href="{{ site.baseurl }}{{ page.url | relative_url }}" target="_self">{% t page.title %}</a></li>
+				<li><a href="{{ site.baseurl }}{{ page.url | relative_url }}">{% t page.title %}</a></li>
 				{% endif %}
 			{% endfor %}
 			{% if site.presskit_download_link %}
@@ -30,9 +30,9 @@
 			{% for lang in site.languages %}
 				{% if site.lang != lang %}
 					{% if lang == "en" %}
-						<li><a href="{{ page.url }}?redirect=no" target="_self">{{ lang }}</a></li>
+						<li><a href="{{ page.url }}?redirect=no">{{ lang }}</a></li>
 					{% else %}
-						<li><a href="/{{ lang }}{{ page.url }}?redirect=no" target="_self">{{ lang }}</a></li>
+						<li><a href="/{{ lang }}{{ page.url }}?redirect=no">{{ lang }}</a></li>
 					{% endif %}
 				{% endif %}
 			{% endfor %}
