@@ -25,4 +25,5 @@ plugins:
 
 languages: ["en", "de"]
 
+url: "https://ev-map.app"
 baseurl: ""
