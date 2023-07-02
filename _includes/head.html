@@ -3,8 +3,10 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title class="pageTitle">{% t page_title %}</title>
+	<title>{% t site_title %}{% if page.title %} · {% t page.title %}{% endif %}</title>
+	{% if page.layout == 'default' %}
 	<meta name="description" content="{% t app_description %}">
+	{% endif %}
 
 	<link rel="shortcut icon" href="{{ site.data.app_info.app_icon | relative_url }}">
 
