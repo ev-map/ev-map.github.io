@@ -2,6 +2,7 @@
 layout: page
 title: imprint
 include_in_header: false
+order: 98
 ---
 
 # {% t imprint %}

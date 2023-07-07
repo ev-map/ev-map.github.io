@@ -2,6 +2,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% if page.noindex %}<meta name="robots" content="noindex,nofollow,noarchive">{% endif %}
 
 	<title>{% t site_title %}{% if page.title %} · {% t page.title %}{% endif %}</title>
 	{% if page.layout == 'default' %}

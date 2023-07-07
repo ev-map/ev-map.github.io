@@ -2,6 +2,7 @@
 layout: page
 title: faq
 include_in_header: true
+order: 1
 ---
 
 # {% t faq %}
