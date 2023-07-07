@@ -46,3 +46,7 @@
 - title                                 : feature_foss
   description                           : feature_foss_desc
   mdi_icon_name                         : source-branch
+
+- title                                 : feature_i18n
+  description                           : feature_i18n_desc
+  mdi_icon_name                         : translate

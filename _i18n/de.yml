@@ -24,6 +24,8 @@ feature_free: Kostenlos
 feature_free_desc: und ohne Werbung
 feature_foss: Open Source
 feature_foss_desc: Beitragen auf <a href="https://github.com/ev-map/EVMap">GitHub</a>!
+feature_i18n: Mehrsprachig
+feature_i18n_desc: Übersetzen via <a href="https://hosted.weblate.org/projects/evmap/">Weblate</a>
 
 contents: Inhalt
 faq: FAQ
