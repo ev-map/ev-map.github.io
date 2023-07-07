@@ -6,10 +6,10 @@ feature_material_design: Material Design
 feature_material_design_desc: Intuitiv und schick
 feature_data_sources: Community-gepflegte Daten
 feature_data_sources_desc: von GoingElectric.de und Open Charge Map
-feature_realtime: Echtzeitstatus
+feature_realtime: Echtzeitstatus & Prognose
 feature_realtime_desc: für viele Ladestationen in Europa
 feature_price_comparison: Preisvergleich
-feature_price_comparison_desc: mit Daten von Chargeprice.app (in Europa)
+feature_price_comparison_desc: mit Daten von <a href="https://chargeprice.app">Chargeprice.app</a> (in Europa)
 feature_map_data: Kartendaten
 feature_map_data_desc: von Google Maps oder OpenStreetMap (Mapbox)
 feature_place_search: Ortssuche
