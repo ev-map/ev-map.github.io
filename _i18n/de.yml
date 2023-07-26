@@ -36,7 +36,7 @@ faq_colors_table_header_icon: Icon
 faq_colors_table_header_charging_power: Leistung der Ladestation
 faq_colors_table_at_least: ab
 faq_double_bolt: Was bedeuten Ladestationen auf der Karte mit zwei Blitzen?
-faq_double_bolt_desc: Wenn das Icon der Ladestation zwei Blitze hat, ist mehr als ein Anschluss an der Ladestation vorhanden. Wenn ein Filter nach bestimmten Anschlüssen oder Ladeleistungen eingstellt ist, bezieht sich das Icon auf Anschlüsse des ausgewählten Typs und Leistung.
+faq_double_bolt_desc: Wenn das Icon der Ladestation zwei Blitze hat, ist mehr als ein Anschluss an der Ladestation vorhanden. Wenn ein Filter nach bestimmten Anschlüssen oder Ladeleistungen eingestellt ist, bezieht sich das Icon auf Anschlüsse des ausgewählten Typs und Leistung.
 faq_connector_colors: Was bedeuten die verschiedenen Farben der Anschlüsse?
 faq_connector_colors_desc: "In der Detailansicht einer Ladestation werden die Anschlüsse mit Echtzeitdaten zur Verfügbarkeit angezeigt. Die Bedeutungen sind unten aufgelistet:"
 faq_connector_colors_green: Grün
