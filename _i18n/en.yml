@@ -5,11 +5,13 @@ app_description: Using the EVMap app, you can find electric vehicle chargers com
 feature_material_design: Material Design
 feature_material_design_desc: Intuitive and beautiful
 feature_data_sources: Community-maintained data
-feature_data_sources_desc: from GoingElectric.de and Open Charge Map
-feature_realtime: Realtime status & predictions
+feature_data_sources_desc: from <a href="https://www.goingelectric.de/stromtankstellen/">GoingElectric.de</a> and <a href="https://openchargemap.org/site">Open Charge Map</a>
+feature_realtime: Realtime status
 feature_realtime_desc: for many chargers in Europe
 feature_price_comparison: Price comparison
 feature_price_comparison_desc: with data from <a href="https://chargeprice.app">Chargeprice.app</a> (in Europe)
+feature_availability_prediction: Availability prediction
+feature_availability_prediction_desc: with data from <a href="https://fronyx.io/">fronyx</a><br>(DC chargers in Germany)
 feature_place_search: Place search
 feature_place_search_desc: find nearby chargers
 feature_map_data: Map data

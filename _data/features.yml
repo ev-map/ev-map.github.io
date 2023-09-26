@@ -3,10 +3,6 @@
   description                           : feature_material_design_desc
   mdi_icon_name                         : material-design
 
-#- title                                 : feature_material_design
-#  description                           : feature_material_design_desc
-#  fontawesome_icon_name                 : magic
-
 - title                                 : feature_data_sources
   description                           : feature_data_sources_desc
   mdi_icon_name                         : crowd
@@ -18,6 +14,10 @@
 - title                                 : feature_price_comparison
   description                           : feature_price_comparison_desc
   mdi_icon_name                         : cash
+
+- title                                 : feature_availability_prediction
+  description                           : feature_availability_prediction_desc
+  mdi_icon_name                         : chart-line-variant
 
 - title                                 : feature_map_data
   description                           : feature_map_data_desc
