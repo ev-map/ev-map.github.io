@@ -134,6 +134,8 @@ faq_permissions_android_auto_3: Android Car App Library Map Templates (zur Darst
 faq_permissions_play_billing: Google Play-Rechnungsdienst (nur Google Play-Version)
 faq_permissions_play_billing_desc: Zur Abwicklung von In-App-Käufen für Spenden über Google Play
 
+changelog: Neuigkeiten
+
 donate: Spenden
 donate_desc: EVMap ist kostenlos und Open Source. Über <a href="https://github.com/ev-map/EVMap">GitHub</a> kann jeder zur Weiterentwicklung der App beitragen. Um die laufenden Kosten für die Datenquellen zu decken, freut sich der Entwickler über Spenden mit einem Betrag deiner Wahl.
 donate_paypal: Mit PayPal spenden
