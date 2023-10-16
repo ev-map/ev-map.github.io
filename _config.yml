@@ -12,6 +12,8 @@ exclude:
   - README.md
   - CNAME
   - generate_changelog.py
+include:
+  - .well-known
 
 collections:
   pages:
