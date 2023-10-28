@@ -9,7 +9,7 @@ order: 100
 2023-05-28
 
 # {% t privacy_policy %}
-{% if site.lang != "de" %}
+{% if site.lang != "de" and site.lang != "en" %}
 *{% t privacy_translation %}*
 {% endif %}
 
