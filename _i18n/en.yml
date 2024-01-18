@@ -127,8 +127,11 @@ donate_paypal: Donate with PayPal
 donate_iap: Donate with In-App purchase
 donate_iap_desc: Within the app you can donate through Google Play In-App purchases. Google takes 15% off every donation.
 donate_referral_links: Referral links
-donate_referral_links_desc: Using these referral links you can support the developer of EVMap and usually also receive a bonus for yourself.
-donate_referral_links_tesla_desc: 500€/1000€ discount on vehicles for you, charging credit for the developer
+donate_referral_links_desc: Using these referral links, you can support the developer of EVMap and usually also receive a bonus for yourself.
+germany_only: (Germany only)
+germany_and_austria: (Germany and Austria)
+donate_referral_links_tesla_desc: Book a test drive or purchase a vehicle through the link to receive exclusive benefits and give charging credit to the developer
+donate_referral_links_juicify_desc: Sell the greenhouse gas reduction quota (THG-Quote) for your EV through Juicify — when registering through the link, the developer receives a small bonus. By signing up for the newsletter, you can receive 20€ extra.
 
 changelog: What's New
 
