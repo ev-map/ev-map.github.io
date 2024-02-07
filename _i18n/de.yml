@@ -139,6 +139,7 @@ changelog: Neuigkeiten
 donate: Spenden
 donate_desc: EVMap ist kostenlos und Open Source. Über <a href="https://github.com/ev-map/EVMap">GitHub</a> kann jeder zur Weiterentwicklung der App beitragen. Um die laufenden Kosten für die Datenquellen zu decken, freut sich der Entwickler über Spenden mit einem Betrag deiner Wahl.
 donate_paypal: Mit PayPal spenden
+donate_github_sponsors: Einmalige oder wiederkehrende Spenden über GitHub Sponsors
 donate_iap: Per In-App-Kauf spenden
 donate_iap_desc: In der App gibt es eine Spendenfunktion per In-App-Kauf (wenn via Google Play installiert). Google zieht von der Spende 15% Gebühren ab.
 donate_referral_links: Referral-Links
