@@ -78,7 +78,7 @@ faq_chargeprice_source_desc_2: The calculated total charging cost is an estimate
   (e.g. reduced charging power with a cold battery, additional consumption through charging loss or heating/cooling
   during charging, etc.), which Chargeprice cannot foresee.
 faq_chargeprice_report: How can I report incorrect data?
-faq_chargeprice_report_desc: If you find an incorrect price, a missing provider, or have questions about the pricing data, you can contact the
+faq_chargeprice_report_desc: If you find an incorrect price, a missing provider or vehicle type, or have questions about the pricing data, you can contact the
   Chargeprice team directly on their [website](https://chargeprice.app).
 faq_chargeprice_order: How are the charging plans sorted?
 faq_chargeprice_order_desc: The plans you have selected as "my charging plans" in EVMap's settings will be shown at the beginning of the list

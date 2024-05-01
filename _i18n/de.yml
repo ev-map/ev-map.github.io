@@ -92,7 +92,7 @@ faq_chargeprice_source_desc_2: Die in EVMap angezeigten Daten entsprechen denen 
   (z.B. reduzierte Ladeleistung bei kalter Batterie, zusätzlicher Energieverbrauch durch Ladeverluste oder
   Heizung/Kühlung während des Ladens, etc.), die Chargeprice nicht vorhersehen kann.
 faq_chargeprice_report: Wie kann ich falsche Daten melden?
-faq_chargeprice_report_desc: Wenn du einen falschen Preis findest, ein Tarif fehlt, oder du Fragen zu den Daten hast, kannst du auf der [Website von Chargeprice](https://chargeprice.app) das Team kontaktieren..
+faq_chargeprice_report_desc: Wenn du einen falschen Preis findest, ein Tarif oder ein Fahrzeug fehlt, oder du Fragen zu den Daten hast, kannst du auf der [Website von Chargeprice](https://chargeprice.app) das Team kontaktieren..
 faq_chargeprice_order: Wie sind die Tarife sortiert?
 faq_chargeprice_order_desc: Tarife, die du in den Einstellungen von EVMap als "meine Tarife" ausgewählt hast, werden an den Anfang der Liste
   gestellt und durch eine graue Hinterlegung markiert.
