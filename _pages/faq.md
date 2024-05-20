@@ -63,8 +63,6 @@ order: 1
 - {% t faq_fdroid_changes_4 %}
 - {% t faq_fdroid_changes_5 %}
 
-{% t faq_fdroid_changes_desc %}
-
 ## {% t faq_chargeprice %}
 
 ### {% t faq_chargeprice_source %}
