@@ -29,6 +29,14 @@ feature_foss_desc: contribute on <a href="https://github.com/ev-map/EVMap">GitHu
 feature_i18n: Multilingual
 feature_i18n_desc: translate on <a href="https://hosted.weblate.org/projects/evmap/">Weblate</a>
 
+sponsors: Sponsors
+sponsor_jawg: Since May 2024, <b>JawgMaps</b> provides their OpenStreetMap vector map tiles service to EVMap for
+  free, i.e. the background map displayed in the app if OpenStreetMap is selected as the data source.
+sponsor_chargeprice: Since April 2021, <b>Chargeprice.app</b> provide their price comparison API at a greatly reduced
+  price for EVMap. This data is used in EVMap's price comparison feature.
+sponsor_fronyx: Since September 2022, for certain charging stations, <b>fronyx</b> provide us free access to their API
+  for availability predictions.
+
 contents: Contents
 faq: FAQ
 faq_general: General

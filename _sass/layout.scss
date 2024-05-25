@@ -67,6 +67,7 @@
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
+		"d d d d d d d d d d d d"
 		"f f f f f f f f f f f f";
 }
 
@@ -93,6 +94,7 @@
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
+			"d d d d d d d d d d d d"
 			"f f f f f f f f f f f f";
 	}
 }
@@ -602,7 +604,39 @@ img.iconTop {
 		padding-left: 0px;
 	}
 	
-} 
+}
+
+
+// Section
+
+.sponsors {
+	grid-area: d;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 93px;
+	line-height: 1.5;
+
+	h2 {
+		position: absolute;
+	}
+
+	p {
+		margin-top: 8px;
+		color: #666;
+	}
+
+	.sponsor {
+		margin-top: 8px;
+		padding-top: 43px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: calc(100%/2);
+
+		a:has(img) {
+			display: block;
+		}
+	}
+}
 
 
 

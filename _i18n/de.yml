@@ -29,6 +29,15 @@ feature_foss_desc: Beitragen auf <a href="https://github.com/ev-map/EVMap">GitHu
 feature_i18n: Mehrsprachig
 feature_i18n_desc: Übersetzen via <a href="https://hosted.weblate.org/projects/evmap/">Weblate</a>
 
+sponsors: Sponsoren
+sponsor_jawg: Seit Mai 2024 stellt <b>JawgMaps</b> seinen Vektorkartendienst auf Basis von OpenStreetMap kostenlos
+  für EVMap bereit, also die Basiskarten, die in der App angezeigt werden, wenn OpenStreetMap als Datenquelle ausgewählt ist.
+sponsor_chargeprice: Seit April 2021 stellt <b>Chargeprice.app</b> ihre API zum Preisvergleich von Ladeanbietern für
+  EVMap zu einem deutlich reduzierten Preis zur Verfügung. Diese Daten werden für den Preisvergleich in EVMap genutzt.
+sponsor_fronyx: Seit September 2022 werden für einige Ladestationen Verfügbarkeitsprognosen angezeigt, diese werden uns
+  von <b>fronyx</b> kostenlos bereitgestellt.
+
+
 contents: Inhalt
 faq: FAQ
 faq_general: Allgemein
