@@ -34,6 +34,8 @@ sponsor_jawg: Since May 2024, <b>JawgMaps</b> provides their OpenStreetMap vecto
   free, i.e. the background map displayed in the app if OpenStreetMap is selected as the data source.
 sponsor_chargeprice: Since April 2021, <b>Chargeprice.app</b> provide their price comparison API at a greatly reduced
   price for EVMap. This data is used in EVMap's price comparison feature.
+sponsor_jetbrains: As part of its support program for Open-source projects, <b>JetBrains</b> supports the development
+  of EVMap since December 2023 with a license of their software suite.
 sponsor_fronyx: Since September 2022, for certain charging stations, <b>fronyx</b> provide us free access to their API
   for availability predictions.
 
