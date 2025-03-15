@@ -15,10 +15,6 @@
   description                           : feature_price_comparison_desc
   mdi_icon_name                         : cash
 
-- title                                 : feature_availability_prediction
-  description                           : feature_availability_prediction_desc
-  mdi_icon_name                         : chart-line-variant
-
 - title                                 : feature_map_data
   description                           : feature_map_data_desc
   mdi_icon_name                         : map
