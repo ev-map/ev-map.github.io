@@ -62,7 +62,9 @@
 	<div class="footerLinks">
 		{% assign pages = site.pages | sort: "order" %}
 		{% for page in pages %}
+		{% if page.include_in_footer != false %}
 			<a href="{{ site.baseurl }}{{ page.url | relative_url }}">{% t page.title %}</a>
+		{% endif %}
 		{% endfor %}
 		{% if site.data.app_info.presskit_download_link %}
 			<a href="{{ site.data.app_info.presskit_download_link }}">Press Kit</a>

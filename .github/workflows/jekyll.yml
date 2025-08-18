@@ -41,8 +41,14 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install pip dependencies
+        run: pip3 install -r requirements.txt
+      - name: Generate licenses
+        run: python3 generate_licenses.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Generate changelog
-        run: pip3 install ghapi~=1.0.4 && python3 generate_changelog.py
+        run: python3 generate_changelog.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Build with Jekyll

@@ -2,7 +2,7 @@
 layout: page
 title: privacy
 include_in_header: false
-order: 100
+order: 101
 ---
 
 **{% t privacy_last_updated %}**  

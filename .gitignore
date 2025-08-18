@@ -6,3 +6,4 @@ _site/
 .idea/
 /env
 /_i18n/**/changelog.md
+/_includes/licenses.md
