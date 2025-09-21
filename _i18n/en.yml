@@ -80,7 +80,7 @@ faq_fdroid_desc_1: "[F-Droid](https://f-droid.org/) is an alternative Android ap
 faq_fdroid_desc_2: Due to the downsides mentioned below, it is **recommended** for most users **to install the app from Google Play** to have access to all features. The F-Droid release is mainly intended to provide an alternative means of installation for devices that cannot access Google services or users who would like to avoid them.
 faq_fdroid_changes: "Changes in the F-Droid version of EVMap:"
 faq_fdroid_changes_1: Map data and place search are solely provided by **OpenStreetMap** data (Jawg Maps / Mapbox / ArcGIS), while the Google Play version offers a choice between Google Maps and OSM.
-faq_fdroid_changes_2: There is **no support for Android Auto and Android Automotive OS**, which are both proprietary Google products.
+faq_fdroid_changes_2: Support for **Android Auto** is implemented, but may not work as Google restricts Android Auto support to apps installed from Google Play.
 faq_fdroid_changes_3: Donations are accepted through a **PayPal** link instead of the Google Play in-app purchases mechanism.
 faq_fdroid_changes_4: The F-Droid version of the app should also work on Android devices that lack the preinstalled Google Play Services.
 faq_fdroid_changes_5: Due to F-Droid's policies, we have less control over the release of new updates. Updates will typically appear on F-Droid a few days later than on Google Play.

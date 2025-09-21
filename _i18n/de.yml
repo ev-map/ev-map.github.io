@@ -90,8 +90,7 @@ faq_fdroid_desc_2: Wegen der unten genannten Nachteile ist es für die meisten N
 faq_fdroid_changes: "Änderungen in der F-Droid-Version von EVMap:"
 faq_fdroid_changes_1: Kartendaten und Ortssuche sind nur von **OpenStreetMap** verfügbar (Jawg Maps / Mapbox / ArcGIS), die Google Play-Version bietet eine
   Auswahlmöglichkeit zwischen Google Maps und OSM).
-faq_fdroid_changes_2: Es gibt **keine Unterstützung für Android Auto und Android Automotive OS**, beides sind proprietäre Produkte von
-  Google.
+faq_fdroid_changes_2: Die Unterstützung für **Android Auto** ist zwar integriert, funktioniert aber ggf. nicht, da Google die Android Auto-Unterstützung auf von Google Play installierte Apps beschränkt.
 faq_fdroid_changes_3: Spenden werden über einen **PayPal**-Link akzeptiert statt über den In-App-Kauf-Mechanismus von Google Play.
 faq_fdroid_changes_4: Die F-Droid-Version der App sollte dadurch auch auf Geräten ohne die üblicherweise vorinstallierten Google
   Play-Dienste funktionieren.
