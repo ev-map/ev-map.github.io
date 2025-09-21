@@ -54,29 +54,3 @@ for key in libs_sorted:
     output_file.write(f"<h2 id=\"license_{key}\">{license['name']}</h2>\n")
     output_file.write("<pre>" + html.escape(license['content']) + "</pre>\n")
     output_file.write("\n")
-
-
-#
-#
-#     tag = release['tag_name']
-#     if release['draft'] or release['prerelease'] or 'beta' in tag:
-#         continue
-#
-#     print(tag)
-#
-#     date = parse_date(release['published_at'])
-#     for lang in langs:
-#         output_files[lang].write(f"# Version {tag}\n")
-#         output_files[lang].write(f"*{date.strftime(date_formats[lang])}*\n\n")
-#
-#     changelogs = extract_changelogs(tag)
-#     body = release['body']
-#     if changelogs is not None:
-#         for lang in langs:
-#             output_files[lang].write(changelogs[lang] + "\n\n")
-#     elif body is not None:
-#         for lang in langs:
-#             output_files[lang].write(body + "\n\n")
-#     else:
-#         for lang in langs:
-#             output_files[lang].write("\n\n")
