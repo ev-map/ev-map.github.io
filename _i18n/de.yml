@@ -142,7 +142,7 @@ faq_permissions_location_desc_3: Die App greift nur auf den Standort zu, wenn si
 faq_permissions_network_connections: Netzwerk- und WLAN-Verbindungen abrufen
 faq_permissions_network_connections_desc: Wird z.B. von den Google Maps- und Google Places-Bibliotheken benötigt, um zu prüfen ob eine Internetverbindung
   besteht und den Datenverbrauch der Art der Verbindung (Mobilfunk oder WLAN) anzupassen.
-faq_permissions_android_auto: Spezielle Berechtigungen für Android Auto und Android Automotive OS (nur Google Play-Version)
+faq_permissions_android_auto: Spezielle Berechtigungen für Android Auto und Android Automotive OS
 faq_permissions_android_auto_desc: "Die Apps für Android Auto und Android Automotive OS benötigen folgende zusätzliche Berechtigungen:"
 faq_permissions_android_auto_1: Fahrzeuginformationen abrufen (z.B. GPS des Fahrzeugs)
 faq_permissions_android_auto_2: Vordergrunddienst ausführen (um alternativ das GPS des Handys nutzen zu können, falls das Fahrzeug keine Daten bereitstellt)

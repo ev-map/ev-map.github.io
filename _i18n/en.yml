@@ -130,7 +130,7 @@ faq_permissions_location_desc_3: The app only accesses your location when runnin
 faq_permissions_network_connections: View network and WiFi connections
 faq_permissions_network_connections_desc: Used e.g. by the Google Maps and Google Places libraries to check if there is an internet connection
   and to adapt their data usage to the type of connection (mobile data or WiFi).
-faq_permissions_android_auto: Special permissions for Android Auto and Android Automotive OS (only Google Play version)
+faq_permissions_android_auto: Special permissions for Android Auto and Android Automotive OS
 faq_permissions_android_auto_desc: "The Android Auto and Android Automotive OS apps need the following additional permissions:"
 faq_permissions_android_auto_1: Access vehicle data (e.g. vehicle GPS)
 faq_permissions_android_auto_2: Run foreground service (to use the smartphone's GPS in case the vehicle does not provide this data)
