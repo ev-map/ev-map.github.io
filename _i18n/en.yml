@@ -60,13 +60,21 @@ faq_connector_colors_teal_desc: All connectors of this type are in use or out of
 faq_connector_colors_grey: Grey
 faq_connector_colors_grey_desc: No real-time data available
 faq_verified: What does the green checkmark next to a charging station's name mean?
-faq_verified_desc: This charger has been verified by a member of the community (either at
-  [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) or
-  [OpenChargeMap.org](https://openchargemap.org/), depending on the selected data source), which means that at least one
-  successful charging session has been reported and there is no current fault report. Of course this does not
-  necessarily mean that the charger is still accessible and in working order. If a charger is not working, please report
-  it at [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) or
-  [OpenChargeMap.org](https://openchargemap.org/).
+faq_verified_desc: "The checkmark is intended to give you an indication on the reliability of the information about
+  this charging station. Remember that this is only an indication and does not guarantee that the charger is still
+  accessible and in working order.
+  Depending on the selected data source, this is implemented in slightly different ways:"
+faq_verified_goingelectric: "[GoingElectric.de](https://www.goingelectric.de/stromtankstellen/): This charger has been
+  verified by a member of the GoingElectric community, i.e., at least one successful charging session has
+  been reported and there is no current outage report. If a charger is not working, please report it at
+  [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/)."
+faq_verified_ocm: "[Open Charge Map](https://openchargemap.org/): A member of the Open Charge Map community has recently
+  verified this charger by means of a check-in, an edit, or a comment, and there is no current outage report. If a
+  charger is not working, please report it at [OpenChargeMap.org](https://openchargemap.org/)."
+faq_verified_osm: "[OpenStreetMap](https://www.openstreetmap.org/): This feature is currently not implemented for this
+  data source."
+faq_verified_nobil: "[NOBIL](https://nobil.no/): The data for this charging station is either reported to NOBIL
+  directly from the operator or it has been manually updated in the last 6 months."
 faq_fdroid: What is F-Droid and why are there differences between the versions of the app available on F-Droid and the Google Play Store?
 faq_fdroid_desc_1: "[F-Droid](https://f-droid.org/) is an alternative Android app store that focuses on free and open source (FOSS) apps. As per F-Droid's policies, apps available through its store must not contain proprietary dependencies, such as certain Google services. Thus, the version of EVMap available on F-Droid contains some changes to remove such dependencies. The details can be found in the list below."
 faq_fdroid_desc_2: Due to the downsides mentioned below, it is **recommended** for most users **to install the app from Google Play** to have access to all features. The F-Droid release is mainly intended to provide an alternative means of installation for devices that cannot access Google services or users who would like to avoid them.

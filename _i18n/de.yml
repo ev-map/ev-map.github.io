@@ -61,13 +61,22 @@ faq_connector_colors_teal_desc: Alle Anschlüsse dieses Typs besetzt oder defekt
 faq_connector_colors_grey: Grau
 faq_connector_colors_grey_desc: Keine Live-Daten verfügbar
 faq_verified: Was bedeutet der grüne Haken neben dem Namen einer Ladestation?
-faq_verified_desc: Die Ladestation wurde von einem Mitglied der Community verifiziert (je nach ausgewählter Datenquelle
-  bei [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) oder
-  [OpenChargeMap.org](https://openchargemap.org/)), d.h. es ist mindestens ein erfolgreicher Eintrag im Ladelog zu
-  finden und keine aktuelle Störung gemeldet. Das bedeutet aber natürlich nicht zwangsläufig, dass die Ladestation auch
-  aktuell noch funktionsfähig und zugänglich ist. Wenn eine Ladestation nicht funktioniert, trage bitte bei
-  [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) bzw.
-  [OpenChargeMap.org](https://openchargemap.org/) eine Störungsmeldung ein.
+faq_verified_desc: "Der Haken soll einen Anhaltspunkt für die Zuverlässigkeit der Informationen über die Ladestation
+  liefern. Es ist aber nur ein Anhaltspunkt und bedeutet nicht zwangsläufig, dass die Ladestation auch aktuell noch
+  funktionsfähig und zugänglich ist.
+  Je nach ausgewählter Datenquelle ist es leicht unterschiedlich umgesetzt:"
+faq_verified_goingelectric: "[GoingElectric.de](https://www.goingelectric.de/stromtankstellen/): Die Ladestation wurde
+  von einem Mitglied der Community bei GoingElectric verifiziert, d.h. es ist mindestens ein erfolgreicher Eintrag im
+  Ladelog zu finden und keine aktuelle Störung gemeldet. Wenn die Ladestation nicht funktioniert, trage bitte bei
+  [GoingElectric.de](https://www.goingelectric.de/stromtankstellen/) eine Störungsmeldung ein."
+faq_verified_ocm: "[Open Charge Map](https://openchargemap.org/): Die Ladestation wurde von einem Mitglied der Community
+  bei Open Charge Map kürzlich durch einen Check-In, eine Bearbeitung oder einen Kommentar verifiziert und es ist keine
+  Störung gemeldet. Wenn die Ladestation nicht funktioniert, trage bitte bei
+  [OpenChargeMap.org](https://openchargemap.org/) eine Störungsmeldung ein."
+faq_verified_osm: "[OpenStreetMap](https://www.openstreetmap.org/): Die Funktion ist für diese Datenquelle derzeit nicht
+  implementiert."
+faq_verified_nobil: "[NOBIL](https://nobil.no/): Die Daten zu dieser Ladestation werden entweder direkt vom Betreiber
+  automatisiert an NOBIL gemeldet oder innerhalb der letzten 6 Monate manuell aktualisiert."
 faq_fdroid: Was ist F-Droid und warum unterscheiden sich die Versionen von EVMap bei F-Droid und dem Google Play Store?
 faq_fdroid_desc_1: "[F-Droid](https://f-droid.org/) ist ein alternativer App Store für Android, der sich auf *Free and Open Source
   Software* (FOSS) spezialisiert hat. Nach den Regeln von F-Droid dürfen die dort erhältlichen Apps keine proprietären

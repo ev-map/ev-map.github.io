@@ -47,6 +47,10 @@ order: 1
 ### {% t faq_verified %}
 
 {% t faq_verified_desc %}
+- {% t faq_verified_goingelectric %}
+- {% t faq_verified_ocm %}
+- {% t faq_verified_osm %}
+- {% t faq_verified_nobil %}
 
 ### {% t faq_fdroid %}
 
