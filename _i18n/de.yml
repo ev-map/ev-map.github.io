@@ -5,7 +5,7 @@ app_description: Mit der App EVMap kannst du Stromtankstellen in deiner Nähe ko
 feature_material_design: Material Design
 feature_material_design_desc: Intuitiv und schick
 feature_data_sources: Community-gepflegte Daten
-feature_data_sources_desc: von <a href="https://www.goingelectric.de/stromtankstellen/">GoingElectric.de</a> und <a href="https://openchargemap.org/site">Open Charge Map</a>
+feature_data_sources_desc: von <a href="https://www.goingelectric.de/stromtankstellen/">GoingElectric.de</a>, <a href="https://openchargemap.org/site">Open Charge Map</a>, <a href="http://openstreetmap.org/">Open&shy;Street&shy;Map</a><sup>beta</sup> und <a href="https://nobil.no/">Nobil</a><sup>beta</sup>
 feature_realtime: Echtzeitstatus
 feature_realtime_desc: für viele Ladestationen in Europa
 feature_price_comparison: Preisvergleich
