@@ -83,7 +83,7 @@ for release in releases:
             output_files[lang].write(changelogs[lang] + "\n\n")
     elif body is not None:
         for lang in langs:
-            output_files[lang].write(body + "\n\n")
+            output_files[lang].write(str(body) + "\n\n")
     else:
         for lang in langs:
             output_files[lang].write("\n\n")
