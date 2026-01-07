@@ -70,23 +70,7 @@ order: 1
 ## {% t faq_chargeprice %}
 
 ### {% t faq_chargeprice_source %}
-{% t faq_chargeprice_source_desc_1 %}
-
-{% t faq_chargeprice_source_desc_2 %}
-
-### {% t faq_chargeprice_report %}
-{% t faq_chargeprice_report_desc %}
-
-### {% t faq_chargeprice_order %}
-{% t faq_chargeprice_order_desc %}
-
-### {% t faq_chargeprice_partners %}
-{% t faq_chargeprice_partners_desc_1 %}
-
-{% t faq_chargeprice_partners_desc_2 %}
-
-### {% t faq_chargeprice_ac_power %}
-{% t faq_chargeprice_ac_power_desc %}
+{% t faq_chargeprice_source_desc %}
 
 ## {% t faq_permissions %}
 {% t faq_permissions_desc %}
