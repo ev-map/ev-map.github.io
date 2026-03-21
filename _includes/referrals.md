@@ -2,7 +2,6 @@
 - **[<img src="https://quotlix.de/img/logo.png" border=0 height="23" alt="Quotlix" />](https://quotlix.de/r/113ec69e)** {% t germany_only %}: {% t donate_referral_links_quotlix_desc %}
 - **[<img src="https://trck.geld-fuer-eauto.de/trck/eview/c4713e9520bdb8842a3f1fbfa3a0669b3e58421043df78ad" border=0 width="98" height="25" alt="Geld für eAuto" />](https://trck.geld-fuer-eauto.de/trck/eclick/c4713e9520bdb8842a3f1fbfa3a0669b3e58421043df78ad)**  {% t germany_and_austria %}: {% t donate_referral_links_geldfuereauto_desc %}
 - **[<img src="https://trck.fairnergy.org/trck/eview/92c199a83eeb57bd223cb8a67b3f857272c7ab16684cbad2" border=0 height="30" alt="fairnergy" />](https://trck.fairnergy.org/trck/eclick/92c199a83eeb57bd223cb8a67b3f857272c7ab16684cbad2)** {% t germany_only %}: {% t donate_referral_links_fairnergy_desc %}
-- **[<img src="https://trck.carbonify.de/trck/eview/a2c9f6b8754b21bfbe7612da49d9d9a262dc33e4f9558a57" border=0 width="1" height="1" />carbonify](https://trck.carbonify.de/trck/eclick/a2c9f6b8754b21bfbe7612da49d9d9a262dc33e4f9558a57)** {% t germany_only %}: {% t donate_referral_links_carbonify_desc %}
 
 
 #### {% t referral_category_utilities %}
