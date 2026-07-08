@@ -5,6 +5,7 @@
 
 
 #### {% t referral_category_utilities %}
+- **[<img src="https://trck.entega.de/trck/eview/b3972d82bbb4db267b448d6fea705173fad21304dc5e622c" border=0 width="31" height="31" /> Entega](https://trck.entega.de/trck/eclick/b3972d82bbb4db267b448d6fea705173fad21304dc5e622c)**: {% t donate_referral_links_entega_desc %}
 - **[<img src="https://netzwerk.uppr.de/trck/eview/781768d2e779806b5e09229932662c14adddd69323594c52" border=0 height="31" /> eprimo](https://netzwerk.uppr.de/trck/eclick/781768d2e779806b5e09229932662c14adddd69323594c52)** {% t germany_only %}: {% t donate_referral_links_eprimo_desc %}
 - **[<img src="https://trck.e-wie-einfach.de/trck/eview/fca74c186b54e7287a62102a13e073be4fc963825b85f7df" border=0 width="1" height="1" /> E wie einfach](https://trck.e-wie-einfach.de/trck/eclick/fca74c186b54e7287a62102a13e073be4fc963825b85f7df)** {% t germany_only %}: {% t donate_referral_links_ewieeinfach_desc %}
 - **[<img src="https://af.enercity.de/trck/eview/ab1f4bc2b3e2908563a7445552f5534b0a5f5c5e6276bb19" border=0 width="88" height="31" alt="Enercity" />](https://af.enercity.de/trck/eclick/ab1f4bc2b3e2908563a7445552f5534b0a5f5c5e6276bb19)** {% t germany_only %}: {% t donate_referral_links_enercity_desc %}
