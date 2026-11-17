@@ -6,14 +6,10 @@ order: 98
 ---
 
 # {% t imprint %}
-{% if site.lang == "de" %}
-**{% t imprint_tmg %}**
-{% endif %}
-
 Johan von Forstner\
-Softwareentwicklung Johan von Forstner\
-Hermine-von-Parish-Str. 32\
-81245 München
+Angerstveien 29C\
+1349 Rykkinn\
+Norway
 
 ### {% t imprint_contact %}
 [evmap@vonforst.net](mailto:evmap@vonforst.net)
